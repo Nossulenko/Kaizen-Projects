@@ -2,23 +2,25 @@
 <footer class="footer-section">
   <!--footer top start-->
   <div
-    class="footer-top ptb-120"
+    class="footer-top ptb-100"
     [ngClass]="dark ? 'bg-dark bg-gradient text-white' : 'footer-light'"
   >
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
+        <div class="col-md-2 col-lg-4 mb-md-1 mb-lg-0">
           <div class="footer-single-col">
             <div class="footer-single-col mb-4">
               <img
                 src="assets/img/logo-white.png"
                 alt="logo"
                 class="img-fluid logo-white"
+                id="logo-white"
               />
               <img
                 src="assets/img/logo-color.png"
                 alt="logo"
                 class="img-fluid logo-color"
+                id="logo-color"
               />
             </div>
             <p>
@@ -70,7 +72,7 @@
           <div class="row">
             <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
               <div class="footer-single-col">
-                <h3>Primary Pages</h3>
+                <h3>Pages</h3>
                 <ul class="list-unstyled footer-nav-list mb-lg-0">
                   <li>
                     <a routerLink="/" class="text-decoration-none">Home</a>
@@ -81,45 +83,13 @@
                     >
                   </li>
                   <li>
-                    <a routerLink="/services" class="text-decoration-none"
-                      >Services</a
-                    >
-                  </li>
-                  <li>
-                    <a routerLink="/career" class="text-decoration-none"
-                      >Career</a
-                    >
-                  </li>
-                  <li>
-                    <a routerLink="/integrations" class="text-decoration-none"
-                      >Integrations</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      routerLink="/single-integration"
-                      class="text-decoration-none"
-                      >Integration Single</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-              <div class="footer-single-col">
-                <h3>Pages</h3>
-                <ul class="list-unstyled footer-nav-list mb-lg-0">
-                  <li>
                     <a routerLink="/pricing" class="text-decoration-none"
                       >Pricing</a
                     >
                   </li>
                   <li>
-                    <a routerLink="/news" class="text-decoration-none">Blog</a>
-                  </li>
-                  <li>
-                    <a routerLink="/news-details" class="text-decoration-none"
-                      >Blog Details</a
+                    <a routerLink="/services" class="text-decoration-none"
+                      >Services</a
                     >
                   </li>
                   <li>
@@ -127,58 +97,12 @@
                       >Contact</a
                     >
                   </li>
-                  <li>
-                    <a routerLink="/single-career" class="text-decoration-none"
-                      >Career Single</a
-                    >
-                  </li>
-                  <li>
-                    <a routerLink="service-single" class="text-decoration-none"
-                      >Services Single</a
-                    >
-                  </li>
+                  
                 </ul>
               </div>
             </div>
-            <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-              <div class="footer-single-col">
-                <h3>Template</h3>
-                <ul class="list-unstyled footer-nav-list mb-lg-0">
-                  <li>
-                    <a routerLink="/contact" class="text-decoration-none"
-                      >Contact</a
-                    >
-                  </li>
-                  <li>
-                    <a routerLink="/help-center" class="text-decoration-none"
-                      >Support</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      routerLink="/hleps-center-details"
-                      class="text-decoration-none"
-                      >Support Single</a
-                    >
-                  </li>
-                  <li>
-                    <a routerLink="/team" class="text-decoration-none"
-                      >Our Team</a
-                    >
-                  </li>
-                  <li>
-                    <a routerLink="/about" class="text-decoration-none"
-                      >Customer Review</a
-                    >
-                  </li>
-                  <li>
-                    <a href="career-single.html" class="text-decoration-none"
-                      >Career Single</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
+            
+            
           </div>
         </div>
       </div>
@@ -188,7 +112,7 @@
 
   <!--footer bottom start-->
   <div
-    class="footer-bottom py-4"
+    class="footer-bottom py-3"
     [ngClass]="dark ? 'bg-gradient text-white' : 'footer-light'"
   >
     <div class="container">
@@ -196,9 +120,9 @@
         <div class="col-md-7 col-lg-7">
           <div class="copyright-text">
             <p class="mb-lg-0 mb-md-0">
-              &copy; 2021 Quiety Rights Reserved. Designed By
-              <a href="https://themetags.com/" class="text-decoration-none"
-                >ThemeTags</a
+              &copy; 2023 Rights Reserved. Designed By
+              <a href="https://kaizenprojects.be/" class="text-decoration-none"
+                >Kaizen Projects</a
               >
             </p>
           </div>
@@ -206,15 +130,7 @@
         <div class="col-md-4 col-lg-4">
           <div class="footer-single-col text-start text-lg-end text-md-end">
             <ul class="list-unstyled list-inline footer-social-list mb-0">
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-dribbble"></i></a>
-              </li>
+             
               <li class="list-inline-item">
                 <a href="#"><i class="fab fa-github"></i></a>
               </li>
