@@ -12,9 +12,20 @@
     top: 50%;
     left: 45%;
     transform: translate(-50%, -50%);
+    width: 50%;
+    
   
 }
 .action-btn{
     align-items: center;
 
+}
+.hero-img{
+    text-align: right;
+    justify-content: right;
+}
+
+#hero-img{
+    width: 200%;
+    height: 200%;
 }
