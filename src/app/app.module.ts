@@ -90,6 +90,7 @@ import { SingleNewsComponent } from './components/pages/news-details/single-news
 import { NewsCtaComponent } from './components/pages/news-details/news-cta/news-cta.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
