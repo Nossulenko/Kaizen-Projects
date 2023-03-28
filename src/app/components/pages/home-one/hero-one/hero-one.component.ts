@@ -50,8 +50,8 @@ export class HeroOneComponent {
                 color: "#ffffff",
                 distance: 150,
                 enable: true,
-                opacity: 0.5,
-                width: 0.5,
+                opacity: 0.3,
+                width: 0.4,
             },
             collisions: {
                 enable: true,
@@ -63,7 +63,7 @@ export class HeroOneComponent {
                     default: OutMode.bounce,
                 },
                 random: false,
-                speed: 3,
+                speed: 1,
                 straight: false,
             },
             number: {
@@ -74,13 +74,13 @@ export class HeroOneComponent {
                 value: 80,
             },
             opacity: {
-                value: 0.5,
+                value: 0.4,
             },
             shape: {
                 type: "circle",
             },
             size: {
-                value: 0.5 ,
+                value: 0.4 ,
             },
         },
         detectRetina: true,
