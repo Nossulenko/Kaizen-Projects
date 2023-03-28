@@ -91,6 +91,8 @@ import { NewsCtaComponent } from './components/pages/news-details/news-cta/news-
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -176,9 +178,10 @@ import { NewsCtaComponent } from './components/pages/news-details/news-cta/news-
     RelatedNewsComponent,
     SingleNewsComponent,
     NewsCtaComponent,
+    
    
   ],
-  imports: [BrowserModule, AppRoutingModule, SwiperModule],
+  imports: [BrowserModule, AppRoutingModule, SwiperModule ],
   providers: [],
   bootstrap: [AppComponent],
 })

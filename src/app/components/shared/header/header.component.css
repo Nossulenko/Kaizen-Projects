@@ -1,10 +1,23 @@
 #logo{
-    width: 15%;
-    height: 15%;
+    max-height: 60px;
+    max-width: 100%;
+    margin: 0 20px;
 }
 
 .navbar-brand{
     width: 20%;
    
 }
-
+.logo-color{
+    max-height: 60px;
+    max-width: 100%;
+    margin: 0 20px;
+}
+.logo-menu{
+    max-height: 60px;
+    max-width: 100%;
+    margin: 0 20px;
+}
+.navbar-toggler{
+    margin-right: 10px;
+}

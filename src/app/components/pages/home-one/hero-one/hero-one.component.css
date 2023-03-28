@@ -25,11 +25,15 @@
 @media (max-width: 767px) {
   .hero-content-wrap h3.display-5 {
     font-size: 3rem;
+    
   }
   .hero-content-wrap {
-    text-align: left;
+    text-align: center;
     margin-top: 50%;
     justify-content: center; /* center both vertically and horizontally */
+  }
+  .action-btn{
+   margin-left: 25px;
   }
 }
 
