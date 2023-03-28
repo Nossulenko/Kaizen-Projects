@@ -88,7 +88,7 @@ import { AllNewsComponent } from './components/pages/news/all-news/all-news.comp
 import { RelatedNewsComponent } from './components/pages/news/related-news/related-news.component';
 import { SingleNewsComponent } from './components/pages/news-details/single-news/single-news.component';
 import { NewsCtaComponent } from './components/pages/news-details/news-cta/news-cta.component';
-
+import { NgParticlesModule } from 'ng-particles';
 
 
 
@@ -181,7 +181,7 @@ import { NewsCtaComponent } from './components/pages/news-details/news-cta/news-
     
    
   ],
-  imports: [BrowserModule, AppRoutingModule, SwiperModule ],
+  imports: [BrowserModule, AppRoutingModule, SwiperModule,NgParticlesModule ],
   providers: [],
   bootstrap: [AppComponent],
 })
