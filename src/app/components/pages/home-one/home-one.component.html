@@ -1,4 +1,10 @@
 <app-header [dark]="true"></app-header>
+<ng-particles
+      [id]="id"
+      [options]="particlesOptions"
+      [particlesInit]="particlesInit"
+      (particlesLoaded)="particlesLoaded($event)"
+  ></ng-particles>
 <app-hero-one></app-hero-one>
 <app-promo></app-promo>
 <app-why-choose-us></app-why-choose-us>

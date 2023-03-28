@@ -181,7 +181,7 @@ import { NgParticlesModule } from 'ng-particles';
     
    
   ],
-  imports: [BrowserModule, AppRoutingModule, SwiperModule,NgParticlesModule ],
+  imports: [BrowserModule, AppRoutingModule, SwiperModule,NgParticlesModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,7 +1,15 @@
 <section class="hero-section ptb-120 text-white bg-gradient" style="background: url('assets/img/hero-dot-bg.png') no-repeat center right;">
   <div class="container">
+    <ng-particles
+    [id]="id"
+    [options]="particlesOptions"
+    [particlesInit]="particlesInit"
+    (particlesLoaded)="particlesLoaded($event)"
+></ng-particles>
     <div class="row">
+      
       <div class="col-lg-6 col-md-10 d-flex justify-content-center align-items-center">
+        
         <div class="hero-content-wrap text-left">
           <h1 class="glow fw display-6">
             THINK DIGITAL ACT HUMAN
@@ -22,6 +30,7 @@
       </div>
     -->
     </div>
+    
   </div>
   
 </section>
