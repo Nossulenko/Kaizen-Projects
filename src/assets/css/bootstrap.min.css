@@ -198,7 +198,7 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #0d6efd;
+  color: #3A92DC;
   text-decoration: underline;
 }
 a:hover {
@@ -4273,7 +4273,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: #0d6efd;
+  color: #3A92DC;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
