@@ -23,6 +23,7 @@
     "magnific-popup": "^1.1.0",
     "ng-particles": "^3.9.3",
     "ngx-useful-swiper": "^10.0.1",
+    "or": "^0.2.0",
     "rxjs": "~7.5.0",
     "sass": "^1.53.0",
     "swiper": "^8.3.1",

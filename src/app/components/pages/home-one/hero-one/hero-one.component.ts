@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import GLightbox from 'glightbox';
-import { MoveDirection, ClickMode, HoverMode, OutMode, Container, Engine } from "tsparticles-engine";
+import { MoveDirection, ClickMode, HoverMode, OutMode, Container, Engine, Shadow } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
 
@@ -44,10 +44,11 @@ export class HeroOneComponent {
         },
         particles: {
             color: {
-                value: "#ffffff",
+                value: "#FAF9F6",
             },
             links: {
-                color: "#ffffff",
+                color: "#FAF9F6",
+                
                 distance: 150,
                 enable: true,
                 opacity: 0.3,

@@ -3,8 +3,19 @@
   height: 100vh;
 }
 
+.btn-primary {
+  : #a230ed;
+}
+
+h1 {
+  font-size: 40px;
+  background: -webkit-linear-gradient( #FAF9F6,#FAF9F6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero-content-wrap {
-  margin-top: 50%;
+  margin-top: 40%;
   position: relative;
   text-align: left; /* add text alignment to center text horizontally */
   display: flex;
